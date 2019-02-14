@@ -37,7 +37,7 @@ You're done.
 
 ## Demo
 
-See it in action on our [home page](https://www.itsmepvr.github.io).
+See it in action on our [home page](https://itsmepvr.github.io).
 
 ------
 
