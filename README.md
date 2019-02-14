@@ -16,7 +16,7 @@ justify-multiple-images depends on jQuery. To use it, include this in your page 
 
 ## Usage
 
-Set `height` and `width` properties to the target conatiner with multiple images in it. By default the `max-height` and `max-width` for images is `300px` given. 
+Set `height` and `width` properties to the target conatiner with multiple images in it. Set the `max-height` and `max-width` for images. 
 
     <div class="image-container" style='width:600px;height:400px'>
       <img src="img/example1.jpg">
