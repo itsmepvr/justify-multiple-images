@@ -18,12 +18,23 @@ justify-multiple-images depends on jQuery. To use it, include this in your page 
 
 Set `height` and `width` properties to the target conatiner with multiple images in it. Set the `max-height` and `max-width` for images. 
 
-    <div class="image-container" style='width:600px;height:400px'>
+    <div class="image-container">
       <img src="img/example1.jpg">
       <img src="img/example2.jpg">
       <img src="img/example3.jpg">
       <img src="img/example4.jpg">
     </div>
+    
+    <style>
+        .image-container{
+            width:600px;
+            height:600px;
+        }
+        .image-container img{
+            width:200px;
+            height:200px;
+        }
+    </style>
 
 Now add this JavaScript code to your page :
 
@@ -53,4 +64,4 @@ See it in action on our [home page](https://itsmepvr.github.io/projects/justify-
 
 ## Copyright and license
 
-Copyright 2013-2016 GestiXi under [The MIT License (MIT)](LICENSE).
+Copyright 2019 Itsmepvr under [The MIT License (MIT)](LICENSE).
