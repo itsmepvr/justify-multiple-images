@@ -1,7 +1,7 @@
 Justify Multiple Images
 =======================
 
-**Justify multiple images to fit or fill any target container.**
+**Justify multiple images to fit or fill any target container with orginal aspect ratio.**
 
 ------
 
