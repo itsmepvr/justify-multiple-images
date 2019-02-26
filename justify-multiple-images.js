@@ -24,8 +24,8 @@
 			while(isOverflown){
 				isOverflown = $(this)[0].scrollHeight > $(this)[0].clientHeight || $(this)[0].scrollWidth > $(this)[0].clientWidth;
 				$(this).find("img").css({"width": child_width+"px", "height": child_height+"px"});
-				child_width -= 10;
-				child_height -= 10;
+				child_width -= child_width/10;
+				child_height -= child_height/10;
 			}
 		}
 	})($);
