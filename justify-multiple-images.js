@@ -15,8 +15,8 @@
 			var child_width = $(this).find('img').width();
       
       // Reduce the child height and width if bigger than parent
-			child_height = (child_height > par_height) ? par_height:child_height;
-			child_width = (child_width > par_width) ? par_width:child_width;
+			//child_height = (child_height > par_height) ? par_height:child_height;
+			//child_width = (child_width > par_width) ? par_width:child_width;
       
       // Condition to check overflow for parent
 			var isOverflown = $(this)[0].scrollHeight > $(this)[0].clientHeight || $(this)[0].scrollWidth > $(this)[0].clientWidth;
